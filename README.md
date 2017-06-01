@@ -2,6 +2,10 @@
 
 `liridev` is a tool to setup development requirements for [Liri][liri-gh].
 
+### Supported Platforms
+Right now this tool is supported on:
+* Ubuntu 17.04 ([source][support-source-ubuntu])
+
 ### Dependencies
 * `Python >= 3.5`
     * [click](http://click.pocoo.org)
@@ -40,5 +44,6 @@ liridev --help
 Licensed under the terms of the MIT license
 
 [liri-gh]: https://github.com/lirios
+[support-source-ubuntu]: liridev/environment/platform/ubuntu.py
 [click-website]: http://click.pocoo.org
 [lirios-superbuild-gh]: https://github.com/lirios/lirios
